@@ -1,0 +1,4 @@
+include requirements.txt
+include src/data/*.json
+graft tests
+global-exclude *.pyc
